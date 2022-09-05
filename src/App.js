@@ -120,28 +120,28 @@ function App() {
 
             <div className="mov-col">
               <img src={tag1} className="" alt="logo" />
-              <video autoplay loop muted playsinline width="20%">
+              <video autoplay loop muted  width="20%">
                 <source src={mov3} type="video/mp4" />
               </video>
             </div>
 
             <div className="mov-col">
             <img src={tag2} className="" alt="logo" />
-              <video autoplay loop muted playsinline width="20%">
+              <video autoplay loop muted  width="20%">
                 <source src={mov2} type="video/mp4" />
               </video>
             </div>
 
             <div className="mov-col">
             <img src={tag3} className="" alt="logo" />
-              <video autoplay loop muted playsinline width="20%">
+              <video autoplay loop muted  width="20%">
                 <source src={mov4} type="video/mp4" />
               </video>
             </div>
 
             <div className="mov-col">
                 <img src={tag4} className="" alt="logo" />
-              <video autoplay loop muted playsinline width="20%">
+              <video autoplay loop muted  width="20%">
                 <source src={mov1} type="video/mp4" />
               </video>
             </div>
