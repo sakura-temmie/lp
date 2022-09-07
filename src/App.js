@@ -25,10 +25,10 @@ import NewsContents from "./img/title5_news_contents.png";
 import Title6 from "./img/title6_contact.png";
 import ContactButton from "./img/title6_contact_contents2.png";
 import Bottom from "./img/bottom.png";
-import mov1 from "./img/movie/A動画でグルメを投稿閲覧.mp4";
-import mov2 from "./img/movie/B地図で簡単にお店を発見.mp4";
-import mov3 from "./img/movie/C気になるお店情報を保存.mp4";
-import mov4 from "./img/movie/Dお店の詳細情報をチェック.mp4";
+import mov1 from "./img/movie/a.mp4";
+import mov2 from "./img/movie/b.mp4";
+import mov3 from "./img/movie/c.mp4";
+import mov4 from "./img/movie/d.mp4";
 import './App.scss';
 
 function App() {
@@ -120,29 +120,29 @@ function App() {
 
             <div className="mov-col">
               <img src={tag1} className="" alt="logo" />
-              <video autoPlay muted  loop width="20%">
-                <source src={mov3} type="video/mp4" />
+              <video autoPlay muted playsInline loop width="20%">
+                <source src={mov1} type="video/mp4" />
               </video>
             </div>
 
             <div className="mov-col">
             <img src={tag2} className="" alt="logo" />
-              <video autoPlay muted loop width="20%">
+              <video autoPlay muted playsInline loop width="20%">
                 <source src={mov2} type="video/mp4" />
               </video>
             </div>
 
             <div className="mov-col">
             <img src={tag3} className="" alt="logo" />
-              <video autoPlay muted loop width="20%">
-                <source src={mov4} type="video/mp4" />
+              <video autoPlay muted playsInline loop width="20%">
+                <source src={mov3} type="video/mp4" />
               </video>
             </div>
 
             <div className="mov-col">
                 <img src={tag4} className="" alt="logo" />
-              <video loop autoPlay muted   width="20%">
-                <source src={mov1} type="video/mp4" />
+              <video loop autoPlay muted playsInline width="20%">
+                <source src={mov4} type="video/mp4" />
               </video>
             </div>
 
