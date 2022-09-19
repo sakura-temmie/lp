@@ -1,5 +1,35 @@
+body{
+  font-family: "Avenir Next";
+}
 .top-img{
   width: 100%;
+}
+
+h1{
+  font-style: italic;
+  font-size: 24px;
+  color: #e32c8a;
+  letter-spacing: 6px;
+  @media screen and (max-width:480px) {
+    font-size: 12px;
+  }
+  span{
+    border-bottom: 3px solid #e32c8a;
+  }
+}
+
+h2{
+  font-size: 24px;
+  font-style: italic;
+  color: #e32c8a;
+  letter-spacing: 6px;
+  @media screen and (max-width:480px) {
+    font-size: 12px;
+    margin-top: 40px;
+  }
+  span{
+    border-bottom: 3px solid #e32c8a;
+  }
 }
 
 /* コンテンツ部分 */
@@ -33,17 +63,16 @@
 /*  Popdish とは */
 .about{
   text-align: center;
-    margin: 40px 0;
+    margin-top: 80px;
     @media screen and (max-width:480px) {
           margin: 10px 0;
         }
-  .title{
-    margin-top: 40px;
-    width: 55%;
-  }
-    .contents {
-      margin-top: 40px;
-      width: 100%;
+        .contents {
+          margin-top: 40px;
+          width: 100%;
+          @media screen and (max-width:480px) {
+                margin-top: 10px;
+              }
     }
     p{
       font-family: "Avenir Next";
@@ -56,18 +85,17 @@ font-size: 11px;
 /*  Popdish で何ができるの */
 .why-popdish{
   text-align: center;
-  margin: 40px 0;
+  margin-top: 80px;
       @media screen and (max-width:480px) {
           margin: 10px 0;
         }
-  .title{
-    margin-top: 40px;
-    width: 50%;
-  }
   .img-row{
     display: flex;
     justify-content: space-between;
     margin: 40px 0;
+      @media screen and (max-width:480px) {
+          margin-top: 10px;
+        }
     div{
       width: 23%;
       img{
@@ -129,76 +157,84 @@ font-size: 11px;
 
 .genre{
   text-align: center;
-  margin: 40px 0;
-      @media screen and (max-width:480px) {
-          margin: 10px 0;
-        }
-  .title {
-    margin-top: 40px;
-    width: 55%;
+  margin-top: 80px;
+  @media screen and (max-width:480px) {
+    margin: 10px 0;
   }
   .contents {
     margin-top: 40px;
     width: 100%;
+      @media screen and (max-width:480px) {
+          margin-top: 10px;
+        }
+    .row{
+      display: flex;
+      justify-content: space-between;
+      .genre-div{
+        width: 18%;
+        text-align: center;
+      }
+    }
   }
+
 }
 
 .can {
   text-align: center;
-  margin: 40px 0;
-
+  margin-top: 80px;
   @media screen and (max-width:480px) {
     margin: 10px 0;
   }
-
-  .title {
-    margin-top: 40px;
-    width: 50%;
-  }
-
   .contents {
     margin-top: 40px;
     width: 100%;
+      @media screen and (max-width:480px) {
+          margin-top: 10px;
+        }
   }
 }
 
 .news {
+  margin-top: 80px;
   text-align: center;
-  margin: 40px 0;
-
   @media screen and (max-width:480px) {
     margin: 10px 0;
   }
-
-  .title {
-    margin-top: 40px;
-    width: 12%;
-  }
-
   .contents {
     margin-top: 40px;
     width: 100%;
+  }
+
+  li{
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    @media screen and (max-width:480px) {
+      font-size: 10px;
+    }
   }
 }
 
 .contact{
   text-align: center;
-  margin: 40px 0;
+  margin-top: 80px;
       @media screen and (max-width:480px) {
           margin: 10px 0;
         }
-  .title {
-    margin-top: 40px;
-    width: 25%;
-  }
   .contents {
     margin-top: 40px;
     width: 80%;
+      @media screen and (max-width:480px) {
+          margin-top: 10px;
+        }
   }
     .contact-input {
       width: 80%;
       padding: 40px 0;
         margin: 0 auto;
+          @media screen and (max-width:480px) {
+              padding-top: 10px;
+            }
       p{
         margin: 0;
         text-align: left;
@@ -224,14 +260,19 @@ font-size: 11px;
   position: relative;
   width: 100%;
   font-size: 10px;
+  .bottom-bg{
+    width: 100%;
+  }
   div{
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
     text-align:center;
-    @media screen and (max-width:480px) {
-            left: 35%;
-          }
     a{
       text-decoration: none;
       color: white;
@@ -239,8 +280,8 @@ font-size: 11px;
     }
     p{
       color: white;
-margin: 0;
-margin-top: 10px;
+      margin: 0;
+      margin-top: 10px;
     }
   }
 }
