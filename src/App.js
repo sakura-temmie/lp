@@ -22,16 +22,16 @@ import mov1 from "./img/movie/a.mp4";
 import mov2 from "./img/movie/b.mp4";
 import mov3 from "./img/movie/c.mp4";
 import mov4 from "./img/movie/d.mp4";
-import ajian from "./img/dish-icon/icon_ajian.png";
-import cafe from "./img/dish-icon/icon_cafe.png";
-import fastfood from "./img/dish-icon/icon_fastfood.png";
-import gohan from "./img/dish-icon/icon_gohan.png";
-import men from "./img/dish-icon/icon_men.png";
-import niku from "./img/dish-icon/icon_niku.png";
-import nomiya from "./img/dish-icon/icon_nomiya.png";
-import sakana from "./img/dish-icon/icon_sakana.png";
-import washoku from "./img/dish-icon/icon_washoku.png";
-import youshoku from "./img/dish-icon/icon_youshoku.png";
+// import ajian from "./img/dish-icon/icon_ajian.png";
+// import cafe from "./img/dish-icon/icon_cafe.png";
+// import fastfood from "./img/dish-icon/icon_fastfood.png";
+// import gohan from "./img/dish-icon/icon_gohan.png";
+// import men from "./img/dish-icon/icon_men.png";
+// import niku from "./img/dish-icon/icon_niku.png";
+// import nomiya from "./img/dish-icon/icon_nomiya.png";
+// import sakana from "./img/dish-icon/icon_sakana.png";
+// import washoku from "./img/dish-icon/icon_washoku.png";
+// import youshoku from "./img/dish-icon/icon_youshoku.png";
 
 import './App.scss';
 
@@ -174,7 +174,7 @@ function App() {
             <li>2022年7月　Androidアプリのベータ版をリリースしました。</li>
             <li>2022年6月　iPhoneアプリのベータ版をリリースしました。</li>
             <li>2022年3月　JSSA（日本スタートアップ支援協会）主催のピッチコンテストで、オーディエンス賞、スポンサー賞（第一法律事務所賞）をダブル受賞しました。</li>
-            <li>2021年11月　G'sAcademy主催のピッチコンテストGLOBAL GEEK AUDITIONにて優勝しました。</li>
+            <li>2021年11月　G's ACADEMY主催のピッチコンテストGLOBAL GEEK AUDITIONにて優勝しました。</li>
             <li>2021年9月　経済産業省・JETRO（独立行政法人日本貿易振興機構）主催、グローバル企業家等育成プログラム「始動Next Innovator 2021」に採択されました。</li>
           </ul>
         </div>
